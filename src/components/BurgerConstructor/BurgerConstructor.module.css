@@ -1,0 +1,63 @@
+.BurgerConstructor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.innerUl {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 464px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ingredientScroll {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll; 
+  height: 100%;
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  width: 568px;
+}
+
+.div {
+  width: 24px;
+  height: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 568px;
+  column-gap: 40px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  column-gap: 9.5px;
+}
+
+.currency {
+  width: 33px;
+  height: 33px;
+}

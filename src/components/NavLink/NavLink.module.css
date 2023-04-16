@@ -1,0 +1,11 @@
+.NavLink {
+  display: flex;
+  flex-direction: row;
+  min-width: 178px;
+  min-height: 56px;
+  border-radius: 40px;
+  align-items: center;
+  text-decoration: none;
+  color: #F2F2F3;
+  box-sizing: border-box;
+}
